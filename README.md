@@ -72,7 +72,7 @@
   <section class="contact">
     <h2>Contact Me</h2>
     <p>Feel free to reach out for collaborations, freelance projects, or consultations!</p>
-    <a href="mailto:youremail@example.com" class="contact-btn">Contact via Email</a>
+    <a href="mailto:prcgroup144@gmail.com" class="contact-btn">Contact via Email</a>
   </section>
 
 </body>
