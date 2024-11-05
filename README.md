@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Profile - AI & Web Developer</title>
 </head>
 <body>
-
+<title>GitHub Profile - AI & Web Developer</title>
   <!-- Profile Header with Background Image -->
   <header class="profile-header">
     <div class="header-content">
