@@ -9,6 +9,7 @@
   <!-- Profile Header with Background Image -->
   <header class="profile-header">
     <div class="header-content">
+       <img src="path/to/your/image.jpg" alt="Profile Header Image">
       <h1>AI & ML Expert | Hardware-Software Integrator | Web Developer</h1>
       <p>Turning innovative ideas into reality. Over 100+ projects successfully delivered!</p>
     </div>
