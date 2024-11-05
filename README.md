@@ -9,7 +9,7 @@
   <!-- Profile Header with Background Image -->
   <header class="profile-header">
     <div class="header-content">
-       <img src="path/to/your/image.jpg" alt="Profile Header Image">
+       <img src="https://github.com/ProjectHelperPRC144/ProjectHelperPRC144/blob/main/DALL%C2%B7E%202024-11-05%2021.47.40%20-%20An%20attractive%2C%20professional%20GitHub%20profile%20header%20image%20showing%20expertise%20in%20AI%2C%20Machine%20Learning%2C%20hardware-software%20integration%2C%20and%20web%20development.jpg" alt="Profile Header Image">
       <h1>AI & ML Expert | Hardware-Software Integrator | Web Developer</h1>
       <p>Turning innovative ideas into reality. Over 100+ projects successfully delivered!</p>
     </div>
