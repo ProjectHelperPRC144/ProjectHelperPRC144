@@ -1,129 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name or Brand Name</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            line-height: 1.6;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #007acc;
-        }
-        a {
-            color: #1e90ff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .badge {
-            display: inline-block;
-            padding: 5px 10px;
-            border-radius: 5px;
-            background-color: #007acc;
-            color: white;
-            margin-right: 5px;
-            font-size: 0.9em;
-        }
-        hr {
-            border: none;
-            border-top: 2px solid #eee;
-            margin: 20px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile - AI & Web Developer</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      line-height: 1.6;
+      background: #f4f4f9;
+    }
+
+    /* Profile Header */
+    .profile-header {
+      background-image: url('header-image.png'); /* Use your profile header image here */
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      color: #fff;
+      padding: 80px 20px;
+    }
+
+    .profile-header h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .profile-header p {
+      font-size: 1.2em;
+    }
+
+    /* Section Styles */
+    .about, .skills, .projects, .contact {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .about p, .contact p {
+      font-size: 1.1em;
+    }
+
+    /* Skills Section */
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills li {
+      background: #0066cc;
+      color: #fff;
+      padding: 8px 15px;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+
+    /* Projects Table */
+    .projects table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    .projects th, .projects td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .projects th {
+      background-color: #004080;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .projects td {
+      background-color: #e6f2ff;
+      color: #333;
+    }
+
+    /* Contact Section */
+    .contact {
+      text-align: center;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      color: #fff;
+      background-color: #0080ff;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .contact-btn:hover {
+      background-color: #0059b3;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Your Name or Brand Name</h1>
-<p>Welcome to my GitHub! I specialize in <strong>AI & ML solutions</strong>, <strong>hardware and software integration</strong>, and <strong>web development</strong> projects, providing innovative solutions for both academic and commercial applications.</p>
+  <!-- Profile Header with Background Image -->
+  <header class="profile-header">
+    <div class="header-content">
+      <h1>AI & ML Expert | Hardware-Software Integrator | Web Developer</h1>
+      <p>Turning innovative ideas into reality. Over 100+ projects successfully delivered!</p>
+    </div>
+  </header>
 
-<p>
-    <a href="https://yourusername.github.io" class="badge">View My Projects</a>
-    <a href="mailto:youremail@example.com" class="badge" style="background-color: #32cd32;">Contact Me</a>
-</p>
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am a tech enthusiast specializing in AI, Machine Learning, and web development. My expertise extends to integrating hardware and software solutions, and I have delivered numerous successful projects that have helped clients worldwide.</p>
+  </section>
 
-<hr>
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Machine Learning & AI Development</li>
+      <li>Hardware-Software Integration</li>
+      <li>Full-Stack Web Development</li>
+      <li>Project Consultation & Support</li>
+    </ul>
+  </section>
 
-<h2>About Me</h2>
-<p>I'm a [Your Background - e.g., "Computer Science student with a passion for technology and innovation"], with expertise in:</p>
-<ul>
-    <li><strong>Artificial Intelligence (AI)</strong>: Building models and custom AI tools to solve complex problems.</li>
-    <li><strong>Machine Learning (ML)</strong>: Developing machine learning models for data analysis, prediction, and automation.</li>
-    <li><strong>Hardware & Software Integration</strong>: Working with embedded systems and IoT to create real-world applications.</li>
-    <li><strong>Web Development</strong>: Creating responsive, user-friendly web applications and full-stack solutions.</li>
-</ul>
+  <!-- Projects Sold Table -->
+  <section class="projects">
+    <h2>Projects Sold</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Category</th>
+          <th>Sales Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Smart Home AI System</td>
+          <td>AI/Hardware</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>Stock Prediction Model</td>
+          <td>Machine Learning</td>
+          <td>48</td>
+        </tr>
+        <tr>
+          <td>E-Commerce Website</td>
+          <td>Web Development</td>
+          <td>72</td>
+        </tr>
+        <tr>
+          <td>Health Monitoring Wearable</td>
+          <td>IoT/Hardware</td>
+          <td>29</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-<h2>Featured Projects</h2>
-
-<h3>AI and Machine Learning Projects</h3>
-<ul>
-    <li><strong>[Project Name 1]</strong> - Description: A machine learning model that [describe project briefly, e.g., "predicts stock prices based on historical data"].<br>
-        <strong>Technologies</strong>: Python, TensorFlow, Scikit-Learn<br>
-        <a href="https://yourusername.github.io/project1-demo">Demo</a> | <a href="https://github.com/yourusername/project1">GitHub Repo</a>
-    </li>
-    <li><strong>[Project Name 2]</strong> - Description: An AI-based application that [describe the functionality, e.g., "recognizes objects in real-time for hardware devices"].<br>
-        <strong>Technologies</strong>: OpenCV, PyTorch, Arduino<br>
-        <a href="https://yourusername.github.io/project2-demo">Demo</a> | <a href="https://github.com/yourusername/project2">GitHub Repo</a>
-    </li>
-</ul>
-
-<h3>Hardware and Software Integration</h3>
-<ul>
-    <li><strong>[IoT Smart Home System]</strong> - Developed a smart home prototype with remote control and automation capabilities.<br>
-        <strong>Technologies</strong>: Raspberry Pi, MQTT, Python<br>
-        <a href="https://github.com/yourusername/smart-home">GitHub Repo</a>
-    </li>
-    <li><strong>[Wearable Health Monitor]</strong> - Created a wearable device to monitor health vitals in real time.<br>
-        <strong>Technologies</strong>: Arduino, C++, Cloud Integration<br>
-        <a href="https://yourusername.github.io/health-monitor-demo">Demo</a> | <a href="https://github.com/yourusername/health-monitor">GitHub Repo</a>
-    </li>
-</ul>
-
-<h3>Web Development Projects</h3>
-<ul>
-    <li><strong>[E-Commerce Site]</strong> - A full-stack web application for e-commerce with secure payment integration.<br>
-        <strong>Technologies</strong>: React, Node.js, MongoDB<br>
-        <a href="https://yourusername.github.io/ecommerce">Live Demo</a> | <a href="https://github.com/yourusername/ecommerce">GitHub Repo</a>
-    </li>
-    <li><strong>[Portfolio Website]</strong> - A modern, responsive website template for professionals.<br>
-        <strong>Technologies</strong>: HTML, CSS, JavaScript<br>
-        <a href="https://yourusername.github.io/portfolio">Live Site</a> | <a href="https://github.com/yourusername/portfolio-website">GitHub Repo</a>
-    </li>
-</ul>
-
-<h2>Services</h2>
-<p>I offer a range of services for those looking to leverage technology in innovative ways:</p>
-<ul>
-    <li><strong>Custom AI and Machine Learning Solutions</strong>: From data analysis to predictive modeling.</li>
-    <li><strong>Embedded Systems and IoT Development</strong>: Prototype and build IoT solutions.</li>
-    <li><strong>Full-Stack Web Development</strong>: Create user-friendly and secure web applications.</li>
-    <li><strong>Consultation and Mentorship</strong>: Available for consultations, project planning, and mentorship.</li>
-</ul>
-
-<hr>
-
-<h2>Contact Me</h2>
-<p>I'm open to collaborations, freelance projects, and consulting opportunities. Feel free to reach out if you have any questions or want to work together.</p>
-<p>📧 <strong>Email</strong>: <a href="mailto:youremail@example.com">youremail@example.com</a><br>
-🌐 <strong>Website</strong>: <a href="https://yourusername.github.io">https://yourusername.github.io</a></p>
-
-<hr>
-
-<h2>How to Support My Work</h2>
-<p>If you like my work, consider supporting me:</p>
-<p><a href="https://www.buymeacoffee.com/yourusername" class="badge" style="background-color: orange;">Buy Me a Coffee</a></p>
-
-<hr>
-
-<h2>License</h2>
-<p>This repository is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for more information.</p>
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaborations, freelance projects, or consultations!</p>
+    <a href="mailto:youremail@example.com" class="contact-btn">Contact via Email</a>
+  </section>
 
 </body>
 </html>
