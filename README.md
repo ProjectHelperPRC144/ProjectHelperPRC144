@@ -45,29 +45,29 @@
       </thead>
       <tbody>
         <tr>
-          <td>Smart Home AI System</td>
+          <td> AI & ML System</td>
           <td>AI/Hardware</td>
           <td>35</td>
         </tr>
         <tr>
-          <td>Stock Prediction Model</td>
+          <td> Data Science </td>
           <td>Machine Learning</td>
           <td>48</td>
         </tr>
         <tr>
-          <td>E-Commerce Website</td>
+          <td> Website & Devlopment</td>
           <td>Web Development</td>
           <td>72</td>
         </tr>
         <tr>
-          <td>Health Monitoring Wearable</td>
+          <td>Hardware</td>
           <td>IoT/Hardware</td>
           <td>29</td>
         </tr>
       </tbody>
     </table>
   </section>
-
+<h5> and Many More still counting ......</h5>
   <!-- Contact Section -->
   <section class="contact">
     <h2>Contact Me</h2>
