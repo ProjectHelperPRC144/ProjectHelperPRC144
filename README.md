@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<h1>GitHub Profile - AI & Web Developer</h1>
+<h1> AI & Web Developer Projects on sell</h1>
   <!-- Profile Header with Background Image -->
   <header class="profile-header">
     <div class="header-content">
