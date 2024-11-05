@@ -74,6 +74,6 @@
     <p>Feel free to reach out for collaborations, freelance projects, or consultations!</p>
     <a href="mailto:prcgroup144@gmail.com" class="contact-btn">Contact via Email</a>
   </section>
-
+<h5>prcgroup144@gmail.com</h5>
 </body>
 </html>
